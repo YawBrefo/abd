@@ -1,4 +1,4 @@
-# Go to the <Wiki> for a) master plan with project phases b) Notes
+# Go to the <<Wiki>> tab for a) master plan with project phases b) Notes
 
 #############
 REPO CONTENTS
