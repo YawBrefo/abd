@@ -1,0 +1,72 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.24.3-Tisler">
+  <identifier>ST37_SH_GCS_NAD83</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>ST37_SH_GCS_NAD83</title>
+  <abstract>This dataset contains all Surface hole oil and gas wells in the Province of Alberta that have been applied for to the AER. This dataset includes information that is based on the ST37 report.
+
+This dataset is intended for mapping purposes, and surface and sub surface analysis, and represents the best information available to the AER at the date of publication. Specific well location information should be obtained from the survey plans, owners and field observation.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Canada</keyword>
+    <keyword>Alberta</keyword>
+    <keyword>Oil</keyword>
+    <keyword>Gas</keyword>
+    <keyword>UWI</keyword>
+    <keyword>Surface Hole</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Oil, Gas, UWI, Surface Hole</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>both</type>
+      <address>Suite 1000, 250 - 5th Street SW</address>
+      <city>Calgary </city>
+      <administrativearea>Alberta </administrativearea>
+      <postalcode>T2P 0R4</postalcode>
+      <country>CA</country>
+    </contactAddress>
+    <name></name>
+    <organization>AER (Alberta Energy Regulator)</organization>
+    <position>Information Services ? Information Management Branch</position>
+    <voice>1-855-297-8311</voice>
+    <fax></fax>
+    <email>InformationRequest@aer.ca</email>
+    <role></role>
+  </contact>
+  <links/>
+  <history>The AER has calculated the well surface hole locations using the metes and bounds included in the well application by referencing them against the ATS4.1 polygons. This calculation provides a common reference to locate legacy wells (prior to GNSS) and Province wide referential integrity of the well locations to both the ATS4.1 polygons and the other wells in the Province. Note that the latitude and longitude reported on recent well licence applications may be derived from GNSS or calculated using ATS4.1 polygons, the only way to determine the source is to consult the well licence land survey. The well licence land survey included with the well licence application is the master record of the location of the well surface hole location. The ST37_SH_GCS_NAD83 dataset represents the license status, location, licensee of record and other basic information for all the Surface Hole Wells across the Province of Alberta. The ST37_SH_GCS_NAD83 dataset is created in 2 steps; The first step is pulling the ST37 Well data from SQL, merging with the FC_Well_Licence dataset, using Well_Licence_Number as the attribute for merging, and than by creating a vertex point for the unmerged data using the Latitude and Longitude attributes. The end result is a reprojected dataset of the Surface Hole Well locations in Alberta.</history>
+  <fees></fees>
+  <constraints type="Security constraints">Designated as Unrestricted under the Government of Alberta Information Security Classification System</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Geodesy."],AREA["North America - onshore and offshore: Canada - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon. Puerto Rico. United States (USA) - Alabama; Alaska; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Hawaii; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming. US Virgin Islands. British Virgin Islands."],BBOX[14.92,167.65,86.46,-47.74]],ID["EPSG",4269]]</wkt>
+      <proj4>+proj=longlat +datum=NAD83 +no_defs</proj4>
+      <srsid>3401</srsid>
+      <srid>4269</srid>
+      <authid>EPSG:4269</authid>
+      <description>NAD83</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial minz="0" miny="48.99746199999999874" maxy="59.99813499999999777" crs="EPSG:4269" dimensions="2" maxx="-110.00505099999999459" maxz="0" minx="-120.00352999999999781"/>
+    <temporal>
+      <period>
+        <start>2018-04-01T04:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
