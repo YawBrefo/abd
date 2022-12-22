@@ -1,10 +1,12 @@
-# Go to the << Wiki >> tab for a) master plan with project phases b) Notes
+# Update on Project
 
 #############
 REPO CONTENTS
 #############
 - .png exemplars of desired planetscope image "look"
-- .shp file 40K 
+- .shp file 40K
+- .ipnyb script for processing satellite and mask images
+- .pictures of proposed polygon shapefiles
 
 ##############
 #HAVE ON HAND#
