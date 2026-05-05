@@ -6,7 +6,7 @@
 REPO CONTENTS
 #############
 - .png exemplars of desired PlanetScope image "look"
-- .shp file 40K
+- .shp file about 40K
 - .ipnyb script for processing satellite and mask images
 - .pictures of proposed polygon shapefiles
 
