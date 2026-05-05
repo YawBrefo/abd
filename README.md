@@ -15,7 +15,7 @@ Documentation
 ############
 - step a. 7,264 polygon shapefiles of the entire Alberta was acquired from the official Alberta Township System (ATS) version 4.1 Coordinate files.
 
-Specifically, all the V4-1_TWP layers were used
+Specifically, all the V4-1_TWP layers were used in tis project
 
 The ATS file contains latitude/longitude coordinates (degrees & decimal degrees) of all governing quarter section corner in the province of Alberta. The file is referenced to NAD 83 with an accuracy of +/-3 metres.(https://open.canada.ca/data/en/dataset/45dbaf52-c4c8-4e5d-89fe-d14cec62fc41)
 
