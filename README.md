@@ -20,7 +20,7 @@ Specifically, all the V4-1_TWP vector layers were used in tis project
 The ATS file contains latitude/longitude coordinates (degrees & decimal degrees) of all governing quarter section corner in the province of Alberta. The file is referenced to NAD 83 with an accuracy of +/-3 metres.(https://open.canada.ca/data/en/dataset/45dbaf52-c4c8-4e5d-89fe-d14cec62fc41)
 
 
-It is a land survey system used in Western Canada to divide land in 1 square mile sections. The system was later adopted in land sales and leases for hydrocarbon exploration rights. It is used for the location and identification of oil and gas wells in Alberta. (https://chinookpetroleum.com/alberta-township-system/)
+This is a land survey system used in Western Canada to divide land in 1 square mile sections. The system was later adopted in land sales and leases for hydrocarbon exploration rights. It is used for the location and identification of oil and gas wells in Alberta. (https://chinookpetroleum.com/alberta-township-system/)
 
  - step b. ATS polygons is intersected with 80,972 well point features in QGIS, the resulting 4,052 (wells_poly) multipolygons within which the wells were located was filtered out.
 
