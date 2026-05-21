@@ -24,7 +24,7 @@ This is a land survey system used in Western Canada to divide land in 1 square m
 
  - step b. ATS polygons is intersected with 80,972 well point features in QGIS, the resulting 4,052 (wells_poly) multipolygons within which the wells were located was filtered out.
 
- - step c. from the 4,052 wells_poly shapefiles 10 polygon samples are selected for planet download.
+ - step c. from the 4,052 wells_poly shapefiles about 10 polygon samples are selected for planet download.
 
  - step d. 10 polygon shapefiles are converted to 10 geojson files.
 
