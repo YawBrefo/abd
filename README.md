@@ -11,7 +11,7 @@ REPO CONTENTS:
 - .pictures of proposed polygon shapefiles / vector files
 
 ############
-Documentation
+Project Documentation
 ############
 - step a. 7,264 polygon-shapefiles of the entire Alberta region was acquired from the official Alberta Township System (ATS) version 4.1 Coordinate files.
 
