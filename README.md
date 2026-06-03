@@ -3,7 +3,7 @@
 # Project Update
 
 #############
-REPO CONTENTS:
+ALL REPO CONTENTS:
 #############
 - .png exemples of desired PlanetScope image "look"
 - .shp file about 40K
